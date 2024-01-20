@@ -1053,27 +1053,29 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	transform: translateY(-2.1rem);
 }
 .intro-content h2{
-		color: #FFFFFF;
-	font-family: "poppins-bold", sans-serif;
-	font-size: 5rem;
+	color: #FFFFFF;
+	font-family: "poppins-medium", sans-serif;
+	font-size: 8.4rem;
 	line-height: 1.071;
 	max-width: 900px;
+	margin-top: 0;
 	margin-bottom: .6rem;
 	margin-left: auto;
-	text-transform: uppercase;
 	margin-right: auto;
+	text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 .intro-content h5 {
-	color: #d4af37;
+	color: #cc005f;
 	font-family: "poppins-bold", sans-serif;
-	font-size: 2.5rem;
+	font-size: 2.3rem;
 	line-height: 1.565;
 	margin-bottom: 0;
 	text-transform: uppercase;
 	letter-spacing: .3rem;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 }
 .intro-content .intro-position {
-	font-family: "lora-bold", serif;
+	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 2.4rem;
 	text-transform: uppercase;
@@ -1085,12 +1087,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	display: inline-block;
 }
 .intro-content .intro-position span::after {
+	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 8px 0 14px;
 	color: rgba(255, 255, 255, 0.3);
 }
 .intro-content .intro-position span:first-child::before {
+	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 14px 0 8px;
@@ -1098,17 +1102,17 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 .intro-content .button {
 	color: #FFFFFF !important;
-	border-color: #d4af37;
+	border-color: rgba(255, 255, 255, 0.3);
 	height: 6rem !important;
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
-	margin-top: 3rem;
+	margin-top: .6rem;
 	font-size: 1.3rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
 }
 .intro-content .button:hover, .intro-content .button:focus {
-	border-color: #d4af37;
+	border-color: #cc005f;
 }
 .intro-content .button::after {
 	display: inline-block;
@@ -1121,26 +1125,26 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	left: 1.2rem;
 }
 
-#countdown {
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
-  color: #fff;
-  font-family: sans-serif;
+.intro-social {
+	display: block;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 7.2rem;
+	font-size: 3.3rem;
+	margin: 0;
+	padding: 0;
 }
-
-.days, .hours, .minutes, .seconds {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100px;
-  height: 100px;
-  margin: 10px;
-  border: 5px solid #d4af37;
-  border-radius: 100%;
-  color: #fff;
-  font-size: 36px;
+.intro-social li {
+	display: inline-block;
+	margin: 0 20px;
+	padding: 0;
+}
+.intro-social li a, .intro-social li a:visited {
+	color: #FFFFFF;
+}
+.intro-social li a:hover, .intro-social li a:focus {
+	color: #cc005f;
 }
 
 /**
@@ -1149,16 +1153,22 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * --------------------------------------------------------------- 
  */
 @media only screen and (max-width:1024px) {
-	.intro-content h2 {
-		font-size: 5rem;
+	.intro-content h1 {
+		font-size: 7.6rem;
+	}
+	.intro-social {
+		font-size: 3rem;
+	}
+	.intro-social li {
+		margin: 0 15px;
 	}
 }
 @media only screen and (max-width:768px) {
 	#intro {
 		min-height: 660px;
 	}
-	.intro-content h2 {
-		font-size: 5rem;
+	.intro-content h1 {
+		font-size: 5.2rem;
 	}
 	.intro-content h5 {
 		font-size: 1.8rem;
@@ -1169,13 +1179,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	.intro-social {
 		font-size: 2.5rem;
 	}
+	.intro-social li {
+		margin: 0 10px;
+	}
 }
 @media only screen and (max-width:600px) {
 	#intro {
 		min-height: 600px;
 	}
-	.intro-content h2 {
-		font-size: 2rem;
+	.intro-content h1 {
+		font-size: 4.6rem;
 		margin-bottom: .6rem;
 	}
 	.intro-content h5 {
@@ -1191,6 +1204,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	}
 	.intro-content .intro-position span::before, .intro-content .intro-position span::after {
 		display: none !important;
+	}
+	.intro-social {
+		font-size: 2.4rem;
 	}
 }
 
