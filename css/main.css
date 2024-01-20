@@ -1111,10 +1111,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	-ms-transform: translateY(-2.1rem);
 	transform: translateY(-2.1rem);
 }
-.intro-content h1 {
-	color: #FFFFFF;
-	font-family: "poppins-medium", sans-serif;
-	font-size: 5rem;
+.intro-content h2 {
+	color: #fff;
+	font-family: "poppins-bold", sans-serif;
+	font-size:3rem;
 	line-height: 1.071;
 	max-width: 900px;
 	margin-top: 0;
@@ -1146,14 +1146,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	display: inline-block;
 }
 .intro-content .intro-position span::after {
-	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 8px 0 14px;
 	color: rgba(255, 255, 255, 0.3);
 }
 .intro-content .intro-position span:first-child::before {
-	content: "|";
 	text-align: center;
 	display: inline-block;
 	padding: 0 14px 0 8px;
@@ -1190,7 +1188,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * --------------------------------------------------------------- 
  */
 @media only screen and (max-width:1024px) {
-	.intro-content h1 {
+	.intro-content h2 {
 		font-size: 3rem;
 	}
 	.intro-social {
@@ -1204,8 +1202,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	#intro {
 		min-height: 660px;
 	}
-	.intro-content h1 {
-		font-size: 2.5rem;
+	.intro-content h2 {
+		font-size: 2rem;
 	}
 	.intro-content h5 {
 		font-size: 1.8rem;
@@ -1218,8 +1216,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	#intro {
 		min-height: 600px;
 	}
-	.intro-content h1 {
-		font-size: 2rem;
+	.intro-content h2 {
+		font-size: 1rem;
 		margin-bottom: .6rem;
 	}
 	.intro-content h5 {
