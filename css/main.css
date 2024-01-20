@@ -1189,7 +1189,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  */
 @media only screen and (max-width:1024px) {
 	.intro-content h2 {
-		font-size: 3rem;
+		font-size: 20px;
 	}
 	.intro-social {
 		font-size: 3rem;
@@ -1203,7 +1203,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 		min-height: 660px;
 	}
 	.intro-content h2 {
-		font-size: 2rem;
+		font-size: 20px;
 	}
 	.intro-content h5 {
 		font-size: 1.8rem;
@@ -1217,7 +1217,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 		min-height: 600px;
 	}
 	.intro-content h2 {
-		font-size: 1rem;
+		font-size: 20px;
 		margin-bottom: .6rem;
 	}
 	.intro-content h5 {
