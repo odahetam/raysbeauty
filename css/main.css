@@ -963,7 +963,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .intro-content h2 {
 	color: #FFFFFF;
 	font-family: "poppins-bold", sans-serif;
-	font-size: 3.2rem;
+	font-size: 3.5rem;
 	line-height: 1.071;
 	max-width: 900px;
 	margin-bottom: .6rem;
@@ -1013,7 +1013,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	height: 6rem !important;
 	line-height: 5.4rem !important;
 	padding: 0 3.5rem 0 3rem !important;
-	margin-top: 5rem;
+	margin-top: 7rem;
 	margin-bottom: .5rem
 	font-size: 1.3rem;
 	text-transform: uppercase;
@@ -1079,7 +1079,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 		min-height: 660px;
 	}
 	.intro-content h2 {
-		font-size: 2.5rem;
+		font-size: 3rem;
 	}
 	.intro-content h4 {
 		font-size: 1.5rem;
@@ -1099,7 +1099,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 		min-height: 600px;
 	}
 	.intro-content h2 {
-		font-size: 2rem;
+		font-size: 3rem;
 		margin-bottom: .6rem;
 	}
 	.intro-content h4 {
