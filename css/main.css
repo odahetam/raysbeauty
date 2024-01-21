@@ -1076,9 +1076,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 		min-height: 660px;
 	}
 	.intro-content h2 {
-		font-size: 2rem;
+		font-size: 2.5rem;
 	}
-	.intro-content h5 {
+	.intro-content h4 {
 		font-size: 1.8rem;
 	}
 	.intro-content .intro-position {
@@ -1096,10 +1096,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 		min-height: 600px;
 	}
 	.intro-content h2 {
-		font-size: 1.5rem;
+		font-size: 2rem;
 		margin-bottom: .6rem;
 	}
-	.intro-content h5 {
+	.intro-content h4 {
 		font-size: 1.5rem;
 		margin-bottom: .3rem;
 		letter-spacing: .2rem;
